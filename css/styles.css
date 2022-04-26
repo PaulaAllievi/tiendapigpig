@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
+}
+
+body {
+    background-image: repeating-radial-gradient(rgb(255, 218, 250), rgb(245, 255, 253))
 }
 
 .grid-inicio {
@@ -115,7 +119,9 @@
 .header img {
     width: 100px;
     height: auto;
+    
 }
+
 
 h1 {
     font-family: "koulen";
@@ -141,6 +147,7 @@ h1 {
     text-transform: uppercase;
     font-family: "baloo chettan 2";
 }
+
 
 /*----form----*/
 
@@ -243,6 +250,14 @@ input {
 .descuentos img {
     width: 350px;
     height: 350px;
+}
+
+.envios img:hover {
+    transform: scale(.8);
+}
+
+.descuentos img:hover {
+    transform: scale(.8);
 }
 
 /*----productos----*/
