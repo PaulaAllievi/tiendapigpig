@@ -1,4 +1,4 @@
-<img src="images/logo.png" >
+<img src="images/logo.png" width="100px" >
 # Proyecto Tienda Pig Pig
 
 Primer proyecto de desarrollo web.
