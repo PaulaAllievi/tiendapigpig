@@ -219,6 +219,10 @@ input {
 
 /*----main----*/
 
+h2 {
+    font-size: 20px;
+}
+
 .nov {
     grid-area: novedades;   
     justify-self:end;
