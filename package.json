@@ -1,0 +1,25 @@
+{
+  "name": "tiendapigpig",
+  "version": "1.0.0",
+  "description": "<img src=\"images/logo.png\" width=\"100px\" >\r # Proyecto Tienda Pig Pig",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss  css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulaAllievi/tiendapigpig.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulaAllievi/tiendapigpig/issues"
+  },
+  "homepage": "https://github.com/PaulaAllievi/tiendapigpig#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
