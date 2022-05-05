@@ -1,0 +1,29 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(243, 188, 221);
+    padding: 25px 35px 45px 35px;
+    ul {
+        margin: 0px 42px 0px 42px;
+        li{
+            display: flex;
+            flex-direction: column;
+            p{
+                font-family: "baloo chettan 2";
+                font-size: 18px;
+                color: rgb(252, 252, 252);        
+            }
+            i{
+                font-size: 18px;
+                color: rgb(252, 252, 252);   
+                margin-right: 8px;
+            }
+        }        
+    }    
+}
+
+.info {
+    display: block;
+    text-align: justify;
+}

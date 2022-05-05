@@ -1,0 +1,327 @@
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffeff3;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+  margin: 16px; }
+  .header img {
+    width: 100px;
+    height: auto; }
+
+.nav ul {
+  display: flex;
+  list-style: none; }
+  .nav ul li {
+    margin: 4px; }
+    .nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      text-shadow: #ee8ac4 0.1em 0.1em 0.2em;
+      text-transform: uppercase;
+      font-family: "baloo chettan 2"; }
+
+.header-left {
+  display: flex;
+  align-items: center; }
+
+h1 {
+  font-family: "koulen";
+  font-size: 42px;
+  color: pink;
+  margin-left: 25px; }
+
+.form {
+  grid-area: form;
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 24px 12px 24px 12px;
+  display: flex;
+  align-items: center;
+  height: 150px; }
+  .form legend {
+    color: #19f8f8;
+    font-size: 32px;
+    font-family: "baloo chettan 2"; }
+
+label {
+  color: #19f8f8;
+  font-size: 22px;
+  padding: 8px;
+  font-family: "baloo chettan 2";
+  font-weight: bold; }
+
+h2 {
+  color: #7afdfd;
+  font-family: "baloo chettan 2";
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.label-input {
+  display: flex; }
+
+input {
+  color: #ffaef8;
+  border-color: #a5eaff;
+  background-color: #e5f7fc;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold; }
+
+.botton {
+  color: #ffaef8;
+  background-color: #adffff;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 18px; }
+
+.textarea {
+  border-color: #0a5ab4;
+  border-radius: 6px;
+  margin-left: 6px;
+  margin-right: 6px; }
+
+.enviar {
+  padding-left: 4px;
+  padding-right: 4px; }
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f3bcdd;
+  padding: 25px 35px 45px 35px; }
+  .footer ul {
+    margin: 0px 42px 0px 42px; }
+    .footer ul li {
+      display: flex;
+      flex-direction: column; }
+      .footer ul li p {
+        font-family: "baloo chettan 2";
+        font-size: 18px;
+        color: #fcfcfc; }
+      .footer ul li i {
+        font-size: 18px;
+        color: #fcfcfc;
+        margin-right: 8px; }
+
+.info {
+  display: block;
+  text-align: justify; }
+
+.grid-inicio {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "header header" "novedades env" "novedades desc" "form form" "footer footer";
+  grid-column-gap: 20px; }
+
+.grid-productos {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "header header header" "viaje home deco" "footer footer footer";
+  grid-row-gap: 20px; }
+
+.grid-contacto {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "header" "form" "footer"; }
+
+.grid-mayoristas {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "header" "condiciones" "footer"; }
+
+.grid-nosotros {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "header" "nosotros" "footer"; }
+
+.viaje {
+  grid-area: viaje;
+  justify-self: center;
+  align-self: center;
+  display: block;
+  text-align: center; }
+  .viaje img {
+    width: 80%;
+    height: 80%; }
+
+.home {
+  grid-area: home;
+  justify-self: center;
+  align-self: center;
+  display: block;
+  text-align: center; }
+  .home img {
+    width: 80%;
+    height: 80%; }
+
+.deco {
+  grid-area: deco;
+  justify-self: center;
+  align-self: center;
+  display: block;
+  text-align: center; }
+  .deco img {
+    width: 80%;
+    height: 80%; }
+
+.nov {
+  grid-area: novedades;
+  justify-self: end;
+  align-self: center; }
+
+.video {
+  width: 730px;
+  height: 730px; }
+
+.envios {
+  grid-area: env;
+  justify-self: center;
+  align-self: center; }
+  .envios img {
+    width: 350px;
+    height: 350px; }
+    .envios img:hover {
+      transform: scale(0.8); }
+
+.descuentos {
+  grid-area: desc;
+  justify-self: center;
+  align-self: center; }
+  .descuentos img {
+    width: 350px;
+    height: 350px; }
+    .descuentos img:hover {
+      transform: scale(0.8); }
+
+h3 {
+  font-family: "baloo chettan 2";
+  font-size: 24px;
+  color: #fcfcfc;
+  padding-bottom: 8px;
+  text-align: start;
+  text-shadow: #cac9ca 0.1em 0.1em 0.2em; }
+
+.form-contacto {
+  display: block;
+  background-color: aliceblue;
+  height: 400px;
+  margin: 10px; }
+  .form-contacto legend {
+    text-align: center;
+    color: #19f8f8;
+    font-size: 32px;
+    padding-top: 28px;
+    font-family: "baloo chettan 2";
+    font-weight: bold; }
+  .form-contacto textarea {
+    height: 50px; }
+
+.label-input-contacto {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%; }
+
+.section-mayoristas {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px; }
+  .section-mayoristas img {
+    width: 400px;
+    height: auto; }
+
+.section-productos {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 15px; }
+  .section-productos article {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .section-productos article h2 {
+      color: #e46ca8;
+      font-family: "baloo chettan 2";
+      padding-bottom: 4px; }
+      .section-productos article h2 img {
+        width: 300px;
+        height: 300px; }
+
+.section-nosotros {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px; }
+  .section-nosotros img {
+    width: 400px;
+    height: auto; }
+
+@media (max-width: 480px) {
+  .grid-inicio {
+    grid-template-areas: "header header" "novedades novedades" "env desc" "env desc" "form form" "footer footer";
+    grid-column-gap: 1px; }
+  .video {
+    width: 700px;
+    height: 700px; }
+  .nov {
+    justify-self: center;
+    align-self: center; }
+  .envios {
+    justify-self: flex-end;
+    align-self: center; }
+    .envios img {
+      width: 350px;
+      height: 350px; }
+  .descuentos {
+    justify-self: flex-start;
+    align-self: center; }
+    .descuentos img {
+      width: 350px;
+      height: 350px; }
+  .footer {
+    flex-direction: column;
+    align-items: center; }
+    .footer ul li {
+      align-items: center; }
+  h3 {
+    padding-bottom: 5%;
+    padding-top: 5%; }
+  .form {
+    flex-direction: column;
+    align-items: center;
+    height: fit-content; }
+    .form h2 {
+      padding-bottom: 2%; }
+  .header-left {
+    flex-direction: column;
+    align-items: flex-start; }
+    .header-left img {
+      width: 50px;
+      height: 50px; }
+  h1 {
+    display: none; }
+  .grid-productos {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "header " "viaje" "home" "deco" "footer";
+    grid-row-gap: 10px; }
+  .form-contacto {
+    flex-direction: column;
+    align-items: center; }
+  .label-input-contacto {
+    flex-direction: column;
+    align-items: center; }
+  .textarea {
+    margin: 15px;
+    width: max-content; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * body {
+    background-image: repeating-radial-gradient(#ffdafa, #f5fffd); }

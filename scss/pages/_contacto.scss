@@ -1,0 +1,25 @@
+
+.form-contacto{
+    display: block;
+    background-color: $colorSecundario;
+    height: 400px; 
+    margin: 10px;
+    legend {
+        text-align: center;
+        color: rgb(25, 248, 248);
+        font-size: 32px;
+        padding-top: 28px;
+        font-family: "baloo chettan 2";
+        font-weight:bold;
+    }
+    textarea {
+        height: 50px;
+    }
+ }
+
+.label-input-contacto {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+

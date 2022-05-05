@@ -1,0 +1,85 @@
+.grid-inicio {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "novedades env"
+    "novedades desc"
+    "form form"
+    "footer footer";       
+    grid-column-gap: 20px;      
+}
+
+.grid-productos {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "viaje home deco"
+    "footer footer footer";      
+    grid-row-gap: 20px;      
+}
+
+.grid-contacto {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "form"
+    "footer";
+}
+
+.grid-mayoristas {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "condiciones"
+    "footer";
+}
+
+.grid-nosotros {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nosotros"
+    "footer";
+}
+
+.viaje {
+    grid-area:viaje;
+    justify-self: center;
+    align-self: center; 
+    display: block;
+    text-align: center; 
+    img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.home {
+    grid-area:home;
+    justify-self: center;
+    align-self: center;  
+    display: block;
+    text-align: center;
+    img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.deco {
+    grid-area:deco;
+    justify-self: center;
+    align-self: center;  
+    display: block;
+    text-align: center; 
+    img {
+        width: 80%;
+        height: 80%;
+    }    
+}
+

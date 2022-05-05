@@ -1,0 +1,63 @@
+.form {
+    grid-area: form;
+    background-color: $colorSecundario;
+    margin: 10px;
+    padding: 24px 12px 24px 12px;    
+    display: flex;
+    align-items: center;
+    height: 150px;
+    legend {
+            color: rgb(25, 248, 248);
+            font-size: 32px;
+            font-family: "baloo chettan 2";
+}
+}
+
+label {
+    color: rgb(25, 248, 248);
+    font-size: 22px;
+    padding: 8px;
+    font-family: "baloo chettan 2";
+    font-weight:bold;
+}
+
+h2 {
+    color:rgb(122, 253, 253);
+    font-family: "baloo chettan 2";
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.label-input {
+    display: flex;
+}
+
+input {
+    color: rgb(255, 174, 248);
+    border-color: rgb(165, 234, 255);
+    background-color: rgb(229, 247, 252);
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight:bold;
+}    
+
+.botton {
+    color: rgb(255, 174, 248);
+    background-color: rgb(173, 255, 255);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.textarea {
+    border-color: rgb(10, 90, 180);
+    border-radius: 6px;
+    margin-left: 6px;
+    margin-right: 6px;    
+}
+
+.enviar {
+    padding-left: 4px;
+    padding-right: 4px;
+}

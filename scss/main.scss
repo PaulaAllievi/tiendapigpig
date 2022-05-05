@@ -1,0 +1,22 @@
+@import "variables";
+@import "layout/header";
+@import "layout/form";
+@import "layout/footer";
+@import "layout/grid";
+@import "pages/home";
+@import "pages/contacto";
+@import "pages/mayoristas";
+@import "pages/productos";
+@import "pages/nosotros";
+@import "responsive";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    body {
+          background-image: repeating-radial-gradient(rgb(255, 218, 250), rgb(245, 255, 253))
+}
+}
