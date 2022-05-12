@@ -14,10 +14,9 @@
 }
 
 label {
-    color: rgb(25, 248, 248);
+    @extend legend;
     font-size: 22px;
     padding: 8px;
-    font-family: "baloo chettan 2";
     font-weight:bold;
 }
 

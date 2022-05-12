@@ -30,7 +30,6 @@
 
 h1 {
   font-family: "koulen";
-  font-size: 42px;
   color: pink;
   margin-left: 25px; }
 
@@ -42,16 +41,14 @@ h1 {
   display: flex;
   align-items: center;
   height: 150px; }
-  .form legend {
+  .form legend, .form label {
     color: #19f8f8;
     font-size: 32px;
     font-family: "baloo chettan 2"; }
 
 label {
-  color: #19f8f8;
   font-size: 22px;
   padding: 8px;
-  font-family: "baloo chettan 2";
   font-weight: bold; }
 
 h2 {
@@ -212,7 +209,7 @@ h3 {
   background-color: aliceblue;
   height: 400px;
   margin: 10px; }
-  .form-contacto legend {
+  .form-contacto legend, .form-contacto label {
     text-align: center;
     color: #19f8f8;
     font-size: 32px;
@@ -325,3 +322,7 @@ h3 {
   box-sizing: border-box; }
   * body {
     background-image: repeating-radial-gradient(#ffdafa, #f5fffd); }
+    * body h1 {
+      font-size: 40px; }
+    * body h3 {
+      font-size: 24px; }

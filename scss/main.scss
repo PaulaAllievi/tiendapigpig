@@ -17,6 +17,16 @@
     padding: 0;
     box-sizing: border-box;    
     body {
-          background-image: repeating-radial-gradient(rgb(255, 218, 250), rgb(245, 255, 253))
+        $sizes:("1": 40px, "3": 24px);
+
+        @each $name, $size in $sizes {
+          h#{$name}{
+                    font-size: $size;
+    }
 }
+        background-image: repeating-radial-gradient(rgb(255, 218, 250), rgb(245, 255, 253))
+
+        }
 }
+
+    
