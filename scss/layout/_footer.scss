@@ -2,17 +2,24 @@
     grid-area: footer;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(243, 188, 221);
-    padding: 25px 35px 45px 35px;
+    background-color: #f8acf340;
+    height: 260px;
+    padding-top: 24px;
+    
     ul {
-        margin: 0px 42px 0px 42px;
+        margin: 0%;
+        padding: 0%;
         li{
             display: flex;
-            flex-direction: column;
+            flex-direction: column;            
             p{
-                font-family: "baloo chettan 2";
-                font-size: 18px;
-                color: rgb(252, 252, 252);        
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 20px;
+            text-shadow: #dbc1f1;
+            text-transform: uppercase;
+            font-family: "baloo chettan 2";  
+            margin: 2px;  
             }
             i{
                 font-size: 18px;
@@ -25,5 +32,25 @@
 
 .info {
     display: block;
-    text-align: justify;
+    text-align: center;
+
 }
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 28px;
+    text-shadow: #f38bf3 0.1em 0.1em 0.2em;
+    text-transform: uppercase;
+    font-family: "baloo chettan 2";  
+    margin: 2px;  
+    text-align: center;
+    padding-bottom: 10px;
+}
+ #firma {
+     text-align: center;
+     padding-top: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+     text-transform: none;
+ }

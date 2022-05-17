@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffeff3;
+  background-color: #ffbffb40;
   padding: 10px 25px 10px 25px;
   border-radius: 5px;
   margin: 16px; }
@@ -13,16 +13,18 @@
 
 .nav ul {
   display: flex;
-  list-style: none; }
+  list-style: none;
+  margin: 0%; }
   .nav ul li {
     margin: 4px; }
     .nav ul li a {
       color: white;
       text-decoration: none;
-      font-size: 20px;
-      text-shadow: #ee8ac4 0.1em 0.1em 0.2em;
+      font-size: 22px;
+      text-shadow: #e9d5fa;
       text-transform: uppercase;
-      font-family: "baloo chettan 2"; }
+      font-family: "baloo chettan 2";
+      margin: 2px; }
 
 .header-left {
   display: flex;
@@ -30,57 +32,60 @@
 
 h1 {
   font-family: "koulen";
-  color: pink;
-  margin-left: 25px; }
+  color: white;
+  margin-left: 25px;
+  margin-bottom: 0%; }
 
 .form {
   grid-area: form;
   background-color: aliceblue;
-  margin: 10px;
-  padding: 24px 12px 24px 12px;
+  padding: 24px;
   display: flex;
   align-items: center;
-  height: 150px; }
-  .form legend, .form label {
-    color: #19f8f8;
-    font-size: 32px;
-    font-family: "baloo chettan 2"; }
+  height: 220px;
+  width: auto;
+  margin-bottom: 50px;
+  border-radius: 10px; }
+  .form legend {
+    color: #e4d8f5;
+    font-size: 34px;
+    font-family: "baloo chettan 2";
+    text-align: center;
+    font-weight: bold; }
 
 label {
-  font-size: 22px;
+  color: #e4d8f5;
+  font-family: "baloo chettan 2";
+  font-size: 20px;
   padding: 8px;
   font-weight: bold; }
 
 h2 {
-  color: #7afdfd;
+  color: #e4d8f5;
   font-family: "baloo chettan 2";
   font-weight: bolder;
   margin-left: 10px;
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-size: 28px;
+  text-align: center; }
 
 .label-input {
   display: flex; }
 
 input {
-  color: #ffaef8;
-  border-color: #a5eaff;
-  background-color: #e5f7fc;
+  color: #d2cfd6;
+  border-color: white;
+  background-color: white;
   border-radius: 6px;
-  font-size: 18px;
-  font-weight: bold; }
-
-.botton {
-  color: #ffaef8;
-  background-color: #adffff;
-  border-radius: 6px;
-  padding: 8px;
   font-size: 18px; }
 
-.textarea {
-  border-color: #0a5ab4;
+.botton {
+  color: #ffffff;
+  background-color: #e4d8f5;
   border-radius: 6px;
-  margin-left: 6px;
-  margin-right: 6px; }
+  padding: 8px;
+  font-size: 18px;
+  margin-left: 8px; }
 
 .enviar {
   padding-left: 4px;
@@ -90,17 +95,23 @@ input {
   grid-area: footer;
   display: flex;
   justify-content: space-around;
-  background-color: #f3bcdd;
-  padding: 25px 35px 45px 35px; }
+  background-color: #f8acf340;
+  height: 260px;
+  padding-top: 24px; }
   .footer ul {
-    margin: 0px 42px 0px 42px; }
+    margin: 0%;
+    padding: 0%; }
     .footer ul li {
       display: flex;
       flex-direction: column; }
       .footer ul li p {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        text-shadow: #dbc1f1;
+        text-transform: uppercase;
         font-family: "baloo chettan 2";
-        font-size: 18px;
-        color: #fcfcfc; }
+        margin: 2px; }
       .footer ul li i {
         font-size: 18px;
         color: #fcfcfc;
@@ -108,7 +119,25 @@ input {
 
 .info {
   display: block;
-  text-align: justify; }
+  text-align: center; }
+
+h3 {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  text-shadow: #f38bf3 0.1em 0.1em 0.2em;
+  text-transform: uppercase;
+  font-family: "baloo chettan 2";
+  margin: 2px;
+  text-align: center;
+  padding-bottom: 10px; }
+
+#firma {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-transform: none; }
 
 .grid-inicio {
   width: 100%;
@@ -145,7 +174,9 @@ input {
   text-align: center; }
   .viaje img {
     width: 80%;
-    height: 80%; }
+    height: 80%;
+    padding-bottom: 50px;
+    padding-top: 8px; }
 
 .home {
   grid-area: home;
@@ -155,7 +186,9 @@ input {
   text-align: center; }
   .home img {
     width: 80%;
-    height: 80%; }
+    height: 80%;
+    padding-bottom: 50px;
+    padding-top: 8px; }
 
 .deco {
   grid-area: deco;
@@ -165,24 +198,27 @@ input {
   text-align: center; }
   .deco img {
     width: 80%;
-    height: 80%; }
+    height: 80%;
+    padding-bottom: 50px;
+    padding-top: 8px; }
 
 .nov {
   grid-area: novedades;
   justify-self: end;
-  align-self: center; }
-
-.video {
-  width: 730px;
-  height: 730px; }
+  align-self: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 750px; }
 
 .envios {
   grid-area: env;
   justify-self: center;
   align-self: center; }
   .envios img {
-    width: 350px;
-    height: 350px; }
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+    margin: 2px; }
     .envios img:hover {
       transform: scale(0.8); }
 
@@ -191,46 +227,72 @@ input {
   justify-self: center;
   align-self: center; }
   .descuentos img {
-    width: 350px;
-    height: 350px; }
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+    margin: 2px; }
     .descuentos img:hover {
       transform: scale(0.8); }
 
-h3 {
-  font-family: "baloo chettan 2";
-  font-size: 24px;
-  color: #fcfcfc;
-  padding-bottom: 8px;
-  text-align: start;
-  text-shadow: #cac9ca 0.1em 0.1em 0.2em; }
-
 .form-contacto {
-  display: block;
+  display: row;
+  justify-content: center;
   background-color: aliceblue;
   height: 400px;
-  margin: 10px; }
-  .form-contacto legend, .form-contacto label {
+  margin: 10px;
+  padding-top: 20px; }
+  .form-contacto legend {
     text-align: center;
-    color: #19f8f8;
+    color: #e4d8f5;
     font-size: 32px;
     padding-top: 28px;
+    padding-bottom: 28px;
     font-family: "baloo chettan 2";
     font-weight: bold; }
+  .form-contacto input {
+    color: #d2cfd6;
+    border-color: white;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 16px; }
   .form-contacto textarea {
-    height: 50px; }
+    color: #d2cfd6;
+    border-color: white;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px; }
 
 .label-input-contacto {
   display: flex;
   justify-content: center;
-  padding-top: 2%; }
+  text-align: center;
+  align-items: center; }
 
 .section-mayoristas {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 15px; }
+  display: block;
+  text-align: center;
+  background-color: aliceblue;
+  height: 400px;
+  margin: 5px 10px 30px 10px;
+  padding: 18px; }
+  .section-mayoristas h2 {
+    padding: 20px 0px 20px 0px;
+    margin: 0px; }
   .section-mayoristas img {
-    width: 400px;
-    height: auto; }
+    width: 80px;
+    margin-top: 20px; }
+
+ul {
+  list-style: none; }
+  ul li {
+    font-size: 22px;
+    color: #e6c0e7;
+    font-family: "baloo chettan 2";
+    margin: 4px; }
 
 .section-productos {
   display: flex;
@@ -246,42 +308,63 @@ h3 {
       font-family: "baloo chettan 2";
       padding-bottom: 4px; }
       .section-productos article h2 img {
-        width: 300px;
-        height: 300px; }
+        width: 340px;
+        height: 340px; }
 
 .section-nosotros {
   display: flex;
   justify-content: center;
-  padding-bottom: 15px; }
-  .section-nosotros img {
-    width: 400px;
-    height: auto; }
+  align-items: center;
+  background-color: aliceblue;
+  height: 400px;
+  margin: 5px 10px 30px 10px;
+  padding: 18px; }
+  .section-nosotros h2 {
+    padding: 20px 0px 20px 0px;
+    margin: 0px;
+    font-size: 32px; }
+  .section-nosotros p {
+    font-size: 24px;
+    color: #e6c0e7;
+    font-family: "baloo chettan 2";
+    margin: 4px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 22px; }
 
 @media (max-width: 480px) {
   .grid-inicio {
-    grid-template-areas: "header header" "novedades novedades" "env desc" "env desc" "form form" "footer footer";
+    grid-template-areas: "header" "novedades" "env" "desc" "form" "footer";
     grid-column-gap: 1px; }
-  .video {
-    width: 700px;
-    height: 700px; }
   .nov {
+    width: 80%;
+    height: 80%;
     justify-self: center;
-    align-self: center; }
+    align-self: center;
+    padding: 0px;
+    margin-bottom: 30px; }
   .envios {
-    justify-self: flex-end;
-    align-self: center; }
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; }
     .envios img {
-      width: 350px;
-      height: 350px; }
+      width: 80%;
+      height: 80%;
+      padding: 0px;
+      margin: 5px; }
   .descuentos {
-    justify-self: flex-start;
-    align-self: center; }
+    display: flex;
+    justify-content: center; }
     .descuentos img {
-      width: 350px;
-      height: 350px; }
+      width: 80%;
+      height: 80%;
+      padding: 0px;
+      margin: 5px; }
   .footer {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    height: fit-content;
+    padding-bottom: 20px; }
     .footer ul li {
       align-items: center; }
   h3 {
@@ -290,9 +373,15 @@ h3 {
   .form {
     flex-direction: column;
     align-items: center;
-    height: fit-content; }
+    height: fit-content;
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
     .form h2 {
-      padding-bottom: 2%; }
+      padding-bottom: 2%;
+      font-size: 22px; }
+    .form legend {
+      font-size: 24px; }
   .header-left {
     flex-direction: column;
     align-items: flex-start; }
@@ -308,12 +397,14 @@ h3 {
     grid-row-gap: 10px; }
   .form-contacto {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    height: max-content;
+    padding-bottom: 20px; }
   .label-input-contacto {
     flex-direction: column;
     align-items: center; }
   .textarea {
-    margin: 15px;
+    margin: 10px;
     width: max-content; } }
 
 * {

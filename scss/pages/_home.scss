@@ -2,21 +2,23 @@
 .nov {
     grid-area: novedades;   
     justify-self:end;
-    align-self: center;    
+    align-self: center;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 750px;
 }
 
-.video {
-    width: 730px;
-    height: 730px;
-}
+
 
 .envios {
     grid-area: env;
     justify-self: center;
     align-self: center; 
     img {
-        width: 350px;
-        height: 350px;
+        width: auto;
+        height: auto;
+        padding-top: 50px;
+        margin: 2px;
         &:hover{
             transform: scale(.8);
         }
@@ -28,23 +30,15 @@
     justify-self: center;
     align-self: center; 
     img {
-        width: 350px;
-        height: 350px;
-        &:hover{
+        width: auto;
+        height: auto;
+        padding-bottom: 50px;
+        margin: 2px;
+            &:hover{
             transform: scale(.8);
         }
     }  
 }
-
-h3 {
-    font-family: "baloo chettan 2";
-    font-size: 24px;
-    color: rgb(252, 252, 252);  
-    padding-bottom: 8px;  
-    text-align:start;  
-    text-shadow: rgb(202, 201, 202) 0.1em 0.1em 0.2em;
-}
-
 
 
 

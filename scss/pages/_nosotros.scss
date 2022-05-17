@@ -1,10 +1,26 @@
-.section-nosotros {
+.section-nosotros { 
     display: flex;
     justify-content: center;
-    padding-bottom: 15px;
-    img {
-        width: 400px;
-        height: auto;
+    align-items: center;
+    background-color: $colorSecundario;
+    height: 400px;
+    margin: 5px 10px 30px 10px;
+    padding: 18px;
+    h2 {
+        padding: 20px 0px 20px 0px;
+        margin: 0px;   
+        font-size: 32px;
+        
     }    
-}
+    p {
+        font-size: 24px;
+        color: rgb(230, 192, 231);
+        font-family: "baloo chettan 2";
+        margin: 4px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 22px;
+        
+    }
 
+}

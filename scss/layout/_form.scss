@@ -1,31 +1,39 @@
 .form {
     grid-area: form;
     background-color: $colorSecundario;
-    margin: 10px;
-    padding: 24px 12px 24px 12px;    
+    padding: 24px;    
     display: flex;
     align-items: center;
-    height: 150px;
+    height: 220px;
+    width: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
     legend {
-            color: rgb(25, 248, 248);
-            font-size: 32px;
+            color: #e4d8f5;
+            font-size: 34px;
             font-family: "baloo chettan 2";
+            text-align: center;
+            font-weight: bold;
 }
 }
 
 label {
-    @extend legend;
-    font-size: 22px;
+    color: #e4d8f5;
+    font-family: "baloo chettan 2";
+    font-size: 20px;
     padding: 8px;
     font-weight:bold;
 }
 
 h2 {
-    color:rgb(122, 253, 253);
+    color:#e4d8f5;
     font-family: "baloo chettan 2";
     font-weight: bolder;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 28px;
+    text-align: center;
 }
 
 .label-input {
@@ -33,28 +41,24 @@ h2 {
 }
 
 input {
-    color: rgb(255, 174, 248);
-    border-color: rgb(165, 234, 255);
-    background-color: rgb(229, 247, 252);
+    color: #d2cfd6;
+    border-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 6px;
     font-size: 18px;
-    font-weight:bold;
+       
 }    
 
 .botton {
-    color: rgb(255, 174, 248);
-    background-color: rgb(173, 255, 255);
+    color: #ffffff;
+    background-color: #e4d8f5;
     border-radius: 6px;
     padding: 8px;
     font-size: 18px;
+    margin-left: 8px;
 }
 
-.textarea {
-    border-color: rgb(10, 90, 180);
-    border-radius: 6px;
-    margin-left: 6px;
-    margin-right: 6px;    
-}
+
 
 .enviar {
     padding-left: 4px;
